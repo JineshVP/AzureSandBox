@@ -1,0 +1,15 @@
+{
+	"name": "ADF-MY-SANDBOX",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f995dcb8-76e1-42c2-9945-749cd3a789a5",
+		"tenantId": "03941fab-8872-4fce-b7eb-4753565f66d5"
+	}
+}
