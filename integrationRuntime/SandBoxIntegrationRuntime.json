@@ -1,0 +1,6 @@
+{
+	"name": "SandBoxIntegrationRuntime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
