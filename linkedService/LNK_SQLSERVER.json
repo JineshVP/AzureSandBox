@@ -1,0 +1,21 @@
+{
+	"name": "LNK_SQLSERVER",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "JINESH",
+			"database": "DATAWAREHOUSE",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "dbuser",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzMDYxMTFlZS1kNmZhLTRmYjMtOGY1MC0zOWI4MDVkZjI5NDUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SandBoxIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
