@@ -110,6 +110,10 @@
 							},
 							"userProperties": [],
 							"typeProperties": {
+								"pipeline": {
+									"referenceName": "pipelineStoredProcedure",
+									"type": "PipelineReference"
+								},
 								"waitOnCompletion": true
 							}
 						}
