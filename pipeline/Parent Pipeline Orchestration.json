@@ -27,7 +27,8 @@
 					"dataset": {
 						"referenceName": "DS_SQLSERVER_TBLLKUP",
 						"type": "DatasetReference"
-					}
+					},
+					"firstRowOnly": false
 				}
 			},
 			{
