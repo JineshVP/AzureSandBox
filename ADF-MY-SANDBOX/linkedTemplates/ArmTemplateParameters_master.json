@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADF-MY-SANDBOX"
+		},
+		"ADLS_SQL_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LNK_SQLSERVER_password": {
+			"value": ""
+		},
+		"ADLS_SQL_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsmysandbox.dfs.core.windows.net/"
+		},
+		"LNK_SQLSERVER_properties_typeProperties_server": {
+			"value": "JINESH"
+		},
+		"LNK_SQLSERVER_properties_typeProperties_database": {
+			"value": "DATAWAREHOUSE"
+		},
+		"LNK_SQLSERVER_properties_typeProperties_userName": {
+			"value": "dbuser"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
