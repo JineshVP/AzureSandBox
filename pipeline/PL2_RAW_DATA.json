@@ -30,6 +30,29 @@
 						"type": "DatasetReference"
 					}
 				}
+			},
+			{
+				"name": "EXEC_CLOUD",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "LKUP_L2_TYPE",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "PL3_CLOUDSG_CSV_EXCEL",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
 			}
 		],
 		"parameters": {
