@@ -29,6 +29,22 @@
 						"type": "DatasetReference"
 					}
 				}
+			},
+			{
+				"name": "EXEC_CSV",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"policy": {
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "PL4_1_CSV",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
 			}
 		],
 		"parameters": {
