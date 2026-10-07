@@ -29,6 +29,29 @@
 						"type": "DatasetReference"
 					}
 				}
+			},
+			{
+				"name": "EXEC_CSV_EXCEL",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "LKUP_SRC_FILES",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "PL4_FILETYPE_CSV_EXCEL",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
 			}
 		],
 		"parameters": {
